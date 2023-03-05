@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  font-size: 10px;
+}
+
+body {
+  height: 100%;
+  background-color: #d5e1ef;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  max-width: 350px;
+  padding: 15px 15px 35px;
+  border-radius: 15px;
+  background-color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+.img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #2d394e;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.text {
+  font-size: 1.3rem;
+  color: #808691;
+  line-height: 1.5;
+}
+
+.attribution {
+  padding: 20px;
+  color: #2d394e;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
+}
+
+.attribution a {
+  color: #2d394e;
+}
